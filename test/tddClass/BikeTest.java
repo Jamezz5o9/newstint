@@ -11,7 +11,7 @@ public class BikeTest {
     @DisplayName("bike can be turned on and off")
     public void bikeOn(){
     Bicycle bicycle = new Bicycle(true, false);
-    bicycle.onLight(true);
+    bicycle.onLight();
     assertEquals(true, bicycle.getLight());
     }
 
@@ -19,7 +19,7 @@ public class BikeTest {
     @DisplayName("bike can be turned on and off")
     public void bikeOff(){
         Bicycle bicycle = new Bicycle(false, true);
-        bicycle.onLight(false);
+        bicycle.offLight();
         assertEquals(false, bicycle.getLight());
     }
 
@@ -29,9 +29,9 @@ public class BikeTest {
         //given
         Bicycle bicycle = new Bicycle(false, true);
         //when
-        bicycle.gearOne(16);
+        bicycle.increaseSpeed(16);
         //check
-        assertEquals(17, bicycle.getGear());
+        assertEquals(17, bicycle.getSpeed());
     }
     @Test
     @DisplayName("bike acceleration")
@@ -39,9 +39,9 @@ public class BikeTest {
         //given
         Bicycle bicycle = new Bicycle(false, true);
         //when
-        bicycle.gearTwo(16);
+        bicycle.increaseSpeed(22);
         //check
-        assertEquals(18, bicycle.getGear());
+        assertEquals(24, bicycle.getSpeed());
     }
     @Test
     @DisplayName("bike acceleration")
@@ -49,9 +49,9 @@ public class BikeTest {
         //given
         Bicycle bicycle = new Bicycle(false, true);
         //when
-        bicycle.gearThree(16);
+        bicycle.increaseSpeed(31);
         //check
-        assertEquals(19, bicycle.getGear());
+        assertEquals(34, bicycle.getSpeed());
     }
     @Test
     @DisplayName("bike acceleration")
@@ -59,9 +59,9 @@ public class BikeTest {
         //given
         Bicycle bicycle = new Bicycle(false, true);
         //when
-        bicycle.gearFour(16);
+        bicycle.increaseSpeed(41);
         //check
-        assertEquals(20, bicycle.getGear());
+        assertEquals(45, bicycle.getSpeed());
     }
     @Test
     @DisplayName("bike acceleration")
@@ -69,9 +69,9 @@ public class BikeTest {
         //given
         Bicycle bicycle = new Bicycle(false, true);
         //when
-        bicycle.decGear(16);
+        bicycle.decreaseSpeed(16);
         //check
-        assertEquals(15, bicycle.getGear());
+        assertEquals(15, bicycle.getSpeed());
     }
     @Test
     @DisplayName("bike acceleration")
@@ -79,9 +79,9 @@ public class BikeTest {
         //given
         Bicycle bicycle = new Bicycle(false, true);
         //when
-        bicycle.decGearTwo(16);
+        bicycle.decreaseSpeed(23);
         //check
-        assertEquals(14, bicycle.getGear());
+        assertEquals(21, bicycle.getSpeed());
     }
     @Test
     @DisplayName("bike acceleration")
@@ -89,9 +89,9 @@ public class BikeTest {
         //given
         Bicycle bicycle = new Bicycle(false, true);
         //when
-        bicycle.decGearThree(16);
+        bicycle.decreaseSpeed(35);
         //check
-        assertEquals(13, bicycle.getGear());
+        assertEquals(32, bicycle.getSpeed());
     }
     @Test
     @DisplayName("bike acceleration")
@@ -99,9 +99,9 @@ public class BikeTest {
         //given
         Bicycle bicycle = new Bicycle(false, true);
         //when
-        bicycle.decGearFour(16);
+        bicycle.decreaseSpeed(46);
         //check
-        assertEquals(12, bicycle.getGear());
+        assertEquals(42, bicycle.getSpeed());
     }
     @Test
     @DisplayName("bike acceleration")

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b055de8-0143-47f9-9e1e-7c94acc0ef47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thirdProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tddClass/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tddClass/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tddClass/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tddClass/BikeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +30,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "/home/codefactory/IdeaProjects/thirdProject/src/tddClass",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/codefactory/IdeaProjects/thirdProject/src/tddClass&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -54,8 +51,8 @@
       <recent name="tddClass" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.secondAirconditionTest.tempUnchangedAbove30">
-    <configuration name="AirConditionerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BikeTest">
+    <configuration name="BikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thirdProject" />
       <extension name="coverage">
         <pattern>
@@ -64,13 +61,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tddClass" />
-      <option name="MAIN_CLASS_NAME" value="tddClass.AirConditionerTest" />
+      <option name="MAIN_CLASS_NAME" value="tddClass.BikeTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AirConditionerTest.switchACOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.accelerateBikeFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thirdProject" />
       <extension name="coverage">
         <pattern>
@@ -79,14 +76,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tddClass" />
-      <option name="MAIN_CLASS_NAME" value="tddClass.AirConditionerTest" />
-      <option name="METHOD_NAME" value="switchACOn" />
+      <option name="MAIN_CLASS_NAME" value="tddClass.BikeTest" />
+      <option name="METHOD_NAME" value="accelerateBikeFour" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="secondAirconditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.decelerateBikeFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thirdProject" />
       <extension name="coverage">
         <pattern>
@@ -95,29 +92,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tddClass" />
-      <option name="MAIN_CLASS_NAME" value="tddClass.secondAirconditionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="secondAirconditionTest.tempUnchanged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="thirdProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tddClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tddClass" />
-      <option name="MAIN_CLASS_NAME" value="tddClass.secondAirconditionTest" />
-      <option name="METHOD_NAME" value="tempUnchanged" />
+      <option name="MAIN_CLASS_NAME" value="tddClass.BikeTest" />
+      <option name="METHOD_NAME" value="decelerateBikeFour" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="secondAirconditionTest.tempUnchangedAbove30" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.decelerateBikeThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="thirdProject" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +108,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tddClass" />
-      <option name="MAIN_CLASS_NAME" value="tddClass.secondAirconditionTest" />
-      <option name="METHOD_NAME" value="tempUnchangedAbove30" />
+      <option name="MAIN_CLASS_NAME" value="tddClass.BikeTest" />
+      <option name="METHOD_NAME" value="decelerateBikeThree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BikeTest.decelerateBikeTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thirdProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tddClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tddClass" />
+      <option name="MAIN_CLASS_NAME" value="tddClass.BikeTest" />
+      <option name="METHOD_NAME" value="decelerateBikeTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.secondAirconditionTest.tempUnchangedAbove30" />
-        <item itemvalue="JUnit.secondAirconditionTest" />
-        <item itemvalue="JUnit.AirConditionerTest" />
-        <item itemvalue="JUnit.secondAirconditionTest.tempUnchanged" />
-        <item itemvalue="JUnit.AirConditionerTest.switchACOn" />
+        <item itemvalue="JUnit.BikeTest" />
+        <item itemvalue="JUnit.BikeTest.decelerateBikeThree" />
+        <item itemvalue="JUnit.BikeTest.decelerateBikeFour" />
+        <item itemvalue="JUnit.BikeTest.decelerateBikeTwo" />
+        <item itemvalue="JUnit.BikeTest.accelerateBikeFour" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +151,8 @@
       <updated>1656170393022</updated>
       <workItem from="1656170396366" duration="19491000" />
       <workItem from="1656238859669" duration="31103000" />
-      <workItem from="1656429979067" duration="12836000" />
+      <workItem from="1656429979067" duration="18871000" />
+      <workItem from="1656576744900" duration="26000" />
     </task>
     <servers />
   </component>
@@ -180,15 +179,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/test/tddClass/BikeTest.java</url>
-          <line>57</line>
-          <properties class="tddClass.BikeTest" method="accelerateBikeFour">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/tddClass/secondAirconditionTest.java</url>

@@ -12,70 +12,71 @@ public class Bicycle {
         this.switchOn = on;
     }
 
-    public void onLight(boolean on) {
-        this.switchOn = on;
+    public void onLight() {
+        this.switchOn = true;
+    }
+    public void offLight(){
+        this.switchOn = false;
     }
 
     public boolean getLight(){
         return switchOn;
     }
 
-    public void gearOne(int increaseGear) {
+//    public void gearOne(int increaseGear) {
+//
+//       defGear = increaseGear + 1;
+//    }
 
-       defGear = increaseGear + 1;
-    }
-    public int getGear(){
-        return defGear;
-    }
-
-    public void gearTwo(int increaseGearTwo) {
-        defGear = increaseGearTwo + 2;
-    }
-
-    public void gearThree(int increaseGearThree) {
-        defGear = increaseGearThree + 3;
-    }
-
-    public void gearFour(int increaseGearFour) {
-        defGear = increaseGearFour + 4;
-    }
-
-    public void decGear(int gearDec) {
-        defGear = gearDec - 1;
-    }
-
-    public void decGearTwo(int gearDecTwo) {
-        defGear = gearDecTwo - 2;
-    }
-
-    public void decGearThree(int gearDecThree) {
-        defGear = gearDecThree - 3;
-    }
-
-    public void decGearFour(int gearDecFour) {
-        defGear = gearDecFour - 4;
-    }
+//
+//    public void gearTwo(int increaseGearTwo) {
+//        defGear = increaseGearTwo + 2;
+//    }
+//
+//    public void gearThree(int increaseGearThree) {
+//        defGear = increaseGearThree + 3;
+//    }
+//
+//    public void gearFour(int increaseGearFour) {
+//        defGear = increaseGearFour + 4;
+//    }
+//
+//    public void decGear(int gearDec) {
+//        defGear = gearDec - 1;
+//    }
+//
+//    public void decGearTwo(int gearDecTwo) {
+//        defGear = gearDecTwo - 2;
+//    }
+//
+//    public void decGearThree(int gearDecThree) {
+//        defGear = gearDecThree - 3;
+//    }
+//
+//    public void decGearFour(int gearDecFour) {
+//        defGear = gearDecFour - 4;
+//    }
     public void increaseSpeed(int increaseNum) {
         if(increaseNum >= 0 && increaseNum <= 20 ){
-            this.num = num + 1;
+            this.num = increaseNum + 1;
         } else if (increaseNum >= 21 && increaseNum <= 30) {
-            this.num = num + 2;
+            this.num = increaseNum + 2;
         } else if (increaseNum >= 31 && increaseNum <= 40) {
-            this.num = num + 3;
+            this.num = increaseNum + 3;
         } else if (increaseNum >= 41) {
-            this.num = num + 4;
+            this.num = increaseNum + 4;
         }
     }
 
     public void decreaseSpeed(int decreaseNum) {
         if(decreaseNum >= 0 && decreaseNum <= 20){
-            this.num = num + 1;
+            this.num = decreaseNum - 1;
         } else if (decreaseNum >= 21 && decreaseNum <= 30) {
-            this.num = num + 2;
+            this.num = decreaseNum - 2;
         } else if (decreaseNum >= 31 && decreaseNum <= 40) {
-            this.num = num + 3;
+            this.num = decreaseNum - 3;
         } else if (decreaseNum >= 41) {
-            this.num = num + 4;
+            this.num = decreaseNum - 4;
         }
     }
     public int getSpeed(){
@@ -96,6 +97,9 @@ public class Bicycle {
     public int getNewGear(){
         return gear;
     }
+       public int getGear(){
+       return defGear;
+   }
 
 
 }
