@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8d2147-e505-41b9-993d-04c1081b9dda" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runningnumber.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnterNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoopThrough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Runnow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/USSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tddClass/Driller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tddClass/LearnStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tddClass/DrillerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tddClass/LearnStaticTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +18,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="newDev" />
+                    <option name="lastUsedInstant" value="1657122759" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1657122758" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -139,7 +149,7 @@
       <workItem from="1656948695244" duration="5779000" />
       <workItem from="1657025275122" duration="1456000" />
       <workItem from="1657036135408" duration="1280000" />
-      <workItem from="1657056913195" duration="5039000" />
+      <workItem from="1657056913195" duration="5860000" />
     </task>
     <servers />
   </component>
