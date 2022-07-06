@@ -1,6 +1,7 @@
 public class LoopThrough{
     public static void main(String[] args) {
-    pattern6(6);
+    //pattern6(6);
+        forCounter();;
 
 
     }
@@ -197,5 +198,13 @@ public class LoopThrough{
 //        }
 //    }
 
+    static void forCounter(){
+        int counter = 1;
 
+        while(counter <= 10){
+            System.out.printf("%d%n", counter);
+            ++counter;
+        }
+        System.out.println();
+    }
 }

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8d2147-e505-41b9-993d-04c1081b9dda" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/InitArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoopThrough.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopThrough.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +75,16 @@
       <recent name="tddClass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.USSD">
+  <component name="RunManager" selected="Application.InitArray">
     <configuration name="EnterNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EnterNum" />
+      <module name="runningnumber" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InitArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InitArray" />
       <module name="runningnumber" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,28 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearnStaticTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="runningnumber" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tddClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tddClass" />
-      <option name="MAIN_CLASS_NAME" value="tddClass.LearnStaticTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.USSD" />
+        <item itemvalue="Application.InitArray" />
         <item itemvalue="Application.LoopThrough" />
+        <item itemvalue="Application.USSD" />
         <item itemvalue="Application.EnterNum" />
         <item itemvalue="Application.LearnStatic" />
-        <item itemvalue="JUnit.LearnStaticTest" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +143,7 @@
       <workItem from="1656948695244" duration="5779000" />
       <workItem from="1657025275122" duration="1456000" />
       <workItem from="1657036135408" duration="1280000" />
-      <workItem from="1657056913195" duration="5860000" />
+      <workItem from="1657056913195" duration="12208000" />
     </task>
     <servers />
   </component>
@@ -184,7 +178,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/LoopThrough.java</url>
-          <line>157</line>
+          <line>158</line>
           <properties class="LoopThrough" method="patternCC">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
