@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class AverageClass {
     public static void main(String[] args) {
+       // checkClass();
     //checkGrade3();
-    unaryIncrement();
+    //unaryIncrement();
+   unaryIncrement1();
+        //multiplicationTable();
 
     }
     static void checkClass(){
@@ -94,5 +97,71 @@ public class AverageClass {
             System.out.printf("C after preincrement is %d%n", c);
 
         }
-}
+
+        static void unaryIncrement1(){
+            Scanner input = new Scanner(System.in);
+            int counter = 0;
+            int total1 = 0;
+            int total2 = 0;
+            double milesPerGallon = 0;
+
+            System.out.println("Please enter miles, enter -1 to quit");
+            int miles = input.nextInt();
+
+            System.out.println("Please enter gallon, enter -1 to quit");
+            int gallon = input.nextInt();
+
+            while(miles != -1){
+                total1 += miles;
+                total2 += gallon;
+                milesPerGallon = (double) miles / gallon;
+                counter++;
+
+                System.out.printf("The miles per gallon is %.2f%n", milesPerGallon);
+
+                System.out.println("Please enter miles, enter -1 to quit");
+                miles = input.nextInt();
+
+
+                System.out.println("Please enter gallon enter -1 to quit");
+                gallon = input.nextInt();
+
+
+
+            }
+
+            if(counter != 0){
+                double averageMiles = (double) total1 / counter;
+                double averageGallon = (double) total2 / counter;
+                System.out.printf("The total miles is %d%n while the total gallon is %d%n", total1, total2);
+                System.out.printf("The average gallon is %.2f%n", averageGallon);
+                System.out.printf("The average miles is %.2f%n", averageMiles);
+                System.out.printf("The miles per gallon for each input is : %.2f%n", milesPerGallon);
+
+            } else {
+                System.out.println("You didn't enter any value pls try again!!!");
+            }
+
+
+        }
+
+    static void multiplicationTable(){
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter any num");
+    int x = input.nextInt();
+        for(int i = 1; i <= 12; i++){
+            int t = i * x;
+            System.out.printf("%d * %d = %d%n", i, x, t);
+            //System.out.printf("Table1 %8d%n, Table2 %8d%n", firstNum, secondNum);
+
+        }
+
+//        for(int i = 1; i <= 24; i *= 2){
+//            System.out.println(i);
+//            for(int second = 2; second > i; second *= 2){
+//                System.out.println(second);
+//            }
+        }
+    }
+
 
