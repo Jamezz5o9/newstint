@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chapter4/SalesCommision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tddClass/Gross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tddClass/GrossTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tddClass/AverageClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tddClass/AverageClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tddClass/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tddClass/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +80,13 @@
       <recent name="tddClass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AverageClass">
-    <configuration name="AverageClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tddClass.AverageClass" />
+  <component name="RunManager" selected="Application.Chapter4.Gross">
+    <configuration name="Chapter4.Gross" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter4.Gross" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tddClass.*" />
+          <option name="PATTERN" value="Chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,39 +94,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tddClass.ClassAverage" />
+    <configuration name="GrossProfitTest.checkProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tddClass.*" />
+          <option name="PATTERN" value="Chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tddClass" />
+      <option name="MAIN_CLASS_NAME" value="tddClass.GrossProfitTest" />
+      <option name="METHOD_NAME" value="checkProfit" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GrossTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tddClass.*" />
+          <option name="PATTERN" value="Chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tddClass" />
+      <option name="MAIN_CLASS_NAME" value="tddClass.GrossTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrossTest.setUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tddClass" />
+      <option name="MAIN_CLASS_NAME" value="tddClass.GrossTest" />
+      <option name="METHOD_NAME" value="setUp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest.averageScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tddClass" />
       <option name="MAIN_CLASS_NAME" value="tddClass.StudentTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="averageScore" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AverageClass" />
-        <item itemvalue="Application.ClassAverage" />
-        <item itemvalue="JUnit.StudentTest" />
+        <item itemvalue="Application.Chapter4.Gross" />
+        <item itemvalue="JUnit.GrossTest" />
+        <item itemvalue="JUnit.GrossTest.setUp" />
+        <item itemvalue="JUnit.GrossProfitTest.checkProfit" />
+        <item itemvalue="JUnit.StudentTest.averageScore" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +180,7 @@
       <workItem from="1656661656175" duration="2295000" />
       <workItem from="1656681533244" duration="3333000" />
       <workItem from="1656968236865" duration="10138000" />
-      <workItem from="1657208453426" duration="11124000" />
+      <workItem from="1657208453426" duration="23532000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>
@@ -148,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657208503875</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1657220744156</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657220744157</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,14 +215,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tddClass/AverageClass.java</url>
-          <line>145</line>
+          <line>143</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

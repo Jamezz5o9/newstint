@@ -12,6 +12,11 @@ public class Student {
          this.average = myAvg;
      }
     }
+
+    public Student() {
+
+    }
+
     public void setName(String myFirstName){
         this.name = myFirstName;
     }

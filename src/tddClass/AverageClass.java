@@ -126,8 +126,6 @@ public class AverageClass {
                 System.out.println("Please enter gallon enter -1 to quit");
                 gallon = input.nextInt();
 
-
-
             }
 
             if(counter != 0){
