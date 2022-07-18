@@ -9,6 +9,7 @@ public class InitArray {
         //initArray();
         //mathTable();
         mathTable2();
+        //newNum();
     }
     public static void initArray(){
 
@@ -69,6 +70,20 @@ public class InitArray {
            System.out.println();
 
         }
+
+
+    }
+    public static void newNum(){
+        for (int i = 1; i <= 5; i++){
+            for(int j = 1; j < 4; j++){
+                for(int k = 1; k <= 1; k++){
+                    int num = i * 2;
+                    System.out.printf("%d", num);
+                }
+            }
+
+        }
+        System.out.println();
     }
 
 

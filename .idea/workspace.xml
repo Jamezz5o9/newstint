@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter6/Crap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter6/InitArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter6/MaximumFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter6/Scope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/BarChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/ArrayInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/ArrayListStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/Arraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/DeckOfCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/GradeBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/GradeBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/GradeBookTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/GradeBookTwoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/InitArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/PassArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/varargsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter8/TestingArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter8/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter8/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter8/UnicornHotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Chapter8/UnicornHotelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaExercise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaExercise.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Gross.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Gross.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter6/InitArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter6/InitArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter7/BarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/BarChart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,21 +74,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "/home/codefactory/IdeaProjects/javaExercise/src",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_directory_selection&quot;: &quot;/home/codefactory/IdeaProjects/javaExercise/src&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -86,40 +96,17 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="tddClass" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Chapter8" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.BarChart">
-    <configuration name="BarChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter7.BarChart" />
+  <component name="RunManager" selected="JUnit.UnicornHotelTest.checkOutOfHotelRoom">
+    <configuration name="Arraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter7.Arraylist" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Chapter4.Gross" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter4.Gross" />
-      <module name="javaExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Crap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter6.Crap" />
-      <module name="javaExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,26 +127,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter6.MaximumFinder" />
+    <configuration name="UnicornHotelTest.checkOutOfHotelRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter6.*" />
+          <option name="PATTERN" value="Chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Chapter8" />
+      <option name="MAIN_CLASS_NAME" value="Chapter8.UnicornHotelTest" />
+      <option name="METHOD_NAME" value="checkOutOfHotelRoom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnicornHotelTest.testthatRooomCanBeBooked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Chapter8" />
+      <option name="MAIN_CLASS_NAME" value="Chapter8.UnicornHotelTest" />
+      <option name="METHOD_NAME" value="testthatRooomCanBeBooked" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnicornHotelTest.throwsAnExceptionWhenYouGetRoomWrongly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Chapter8" />
+      <option name="MAIN_CLASS_NAME" value="Chapter8.UnicornHotelTest" />
+      <option name="METHOD_NAME" value="throwsAnExceptionWhenYouGetRoomWrongly" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BarChart" />
+        <item itemvalue="JUnit.UnicornHotelTest.checkOutOfHotelRoom" />
+        <item itemvalue="JUnit.UnicornHotelTest.throwsAnExceptionWhenYouGetRoomWrongly" />
+        <item itemvalue="JUnit.UnicornHotelTest.testthatRooomCanBeBooked" />
+        <item itemvalue="Application.Arraylist" />
         <item itemvalue="Application.InitArray" />
-        <item itemvalue="Application.MaximumFinder" />
-        <item itemvalue="Application.Crap" />
-        <item itemvalue="Application.Chapter4.Gross" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +199,16 @@
       <workItem from="1656681533244" duration="3333000" />
       <workItem from="1656968236865" duration="10138000" />
       <workItem from="1657208453426" duration="26265000" />
-      <workItem from="1657338332685" duration="25693000" />
+      <workItem from="1657338332685" duration="29652000" />
+      <workItem from="1657450530700" duration="31225000" />
+      <workItem from="1657591945889" duration="9857000" />
+      <workItem from="1657729642459" duration="2710000" />
+      <workItem from="1657798951463" duration="11857000" />
+      <workItem from="1657869826120" duration="599000" />
+      <workItem from="1657887920219" duration="650000" />
+      <workItem from="1657905969370" duration="5968000" />
+      <workItem from="1658132600550" duration="10089000" />
+      <workItem from="1658180822190" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>
@@ -200,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657332954359</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding some array">
+      <created>1657409953078</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657409953078</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +259,8 @@
     <MESSAGE value="new commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="some additions" />
-    <option name="LAST_COMMIT_MESSAGE" value="some additions" />
+    <MESSAGE value="Adding some array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding some array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -240,6 +279,11 @@
           <url>file://$PROJECT_DIR$/src/Chapter6/Crap.java</url>
           <line>22</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Chapter6/InitArray.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Chapter6/InitArray.java</url>
