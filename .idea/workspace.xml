@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/ArrayInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/ArrayListStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/Arraylist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/DeckOfCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/GradeBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/GradeBookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/GradeBookTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/GradeBookTwoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/InitArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/PassArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/varargsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter8/TestingArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter8/Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter8/TimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter8/UnicornHotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Chapter8/UnicornHotelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter3/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter3/CarApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/checkIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/samImmanuel/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/samImmanuel/StoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter6/InitArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter6/InitArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter7/BarChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/BarChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter8/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter8/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Chapter8/UnicornHotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter8/UnicornHotelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,15 +82,29 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="samImmanuel" />
       <recent name="tddClass" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Chapter8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UnicornHotelTest.checkOutOfHotelRoom">
-    <configuration name="Arraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter7.Arraylist" />
+  <component name="RunManager" selected="Application.checkIndex">
+    <configuration name="CarApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter3.CarApplication" />
+      <module name="javaExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter7.checkIndex" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
@@ -114,62 +116,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter6.InitArray" />
+    <configuration name="StoreTest.calculateBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter6.*" />
+          <option name="PATTERN" value="samImmanuel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnicornHotelTest.checkOutOfHotelRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Chapter8" />
-      <option name="MAIN_CLASS_NAME" value="Chapter8.UnicornHotelTest" />
-      <option name="METHOD_NAME" value="checkOutOfHotelRoom" />
+      <option name="PACKAGE_NAME" value="samImmanuel" />
+      <option name="MAIN_CLASS_NAME" value="samImmanuel.StoreTest" />
+      <option name="METHOD_NAME" value="calculateBalance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnicornHotelTest.testthatRooomCanBeBooked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StoreTest.checkthenewBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter8.*" />
+          <option name="PATTERN" value="samImmanuel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter8" />
-      <option name="MAIN_CLASS_NAME" value="Chapter8.UnicornHotelTest" />
-      <option name="METHOD_NAME" value="testthatRooomCanBeBooked" />
+      <option name="PACKAGE_NAME" value="samImmanuel" />
+      <option name="MAIN_CLASS_NAME" value="samImmanuel.StoreTest" />
+      <option name="METHOD_NAME" value="checkthenewBalance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnicornHotelTest.throwsAnExceptionWhenYouGetRoomWrongly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StoreTest.newBalanceExceedsExpectedLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter8.*" />
+          <option name="PATTERN" value="samImmanuel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Chapter8" />
-      <option name="MAIN_CLASS_NAME" value="Chapter8.UnicornHotelTest" />
-      <option name="METHOD_NAME" value="throwsAnExceptionWhenYouGetRoomWrongly" />
+      <option name="PACKAGE_NAME" value="samImmanuel" />
+      <option name="MAIN_CLASS_NAME" value="samImmanuel.StoreTest" />
+      <option name="METHOD_NAME" value="newBalanceExceedsExpectedLimit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UnicornHotelTest.checkOutOfHotelRoom" />
-        <item itemvalue="JUnit.UnicornHotelTest.throwsAnExceptionWhenYouGetRoomWrongly" />
-        <item itemvalue="JUnit.UnicornHotelTest.testthatRooomCanBeBooked" />
-        <item itemvalue="Application.Arraylist" />
-        <item itemvalue="Application.InitArray" />
+        <item itemvalue="Application.checkIndex" />
+        <item itemvalue="JUnit.StoreTest.newBalanceExceedsExpectedLimit" />
+        <item itemvalue="Application.CarApplication" />
+        <item itemvalue="JUnit.StoreTest.checkthenewBalance" />
+        <item itemvalue="JUnit.StoreTest.calculateBalance" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +197,12 @@
       <workItem from="1657887920219" duration="650000" />
       <workItem from="1657905969370" duration="5968000" />
       <workItem from="1658132600550" duration="10089000" />
-      <workItem from="1658180822190" duration="598000" />
+      <workItem from="1658180822190" duration="24305000" />
+      <workItem from="1658389666581" duration="4671000" />
+      <workItem from="1658442261261" duration="1284000" />
+      <workItem from="1658526805110" duration="293000" />
+      <workItem from="1658552792345" duration="3382000" />
+      <workItem from="1658673652441" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>
