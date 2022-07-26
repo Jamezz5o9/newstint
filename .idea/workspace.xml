@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter3/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter3/CarApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter7/checkIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/samImmanuel/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/samImmanuel/StoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter3/highestNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter8/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter8/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter8/UnicornHotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter8/UnicornHotelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +83,7 @@
       <recent name="Chapter8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.checkIndex">
+  <component name="RunManager" selected="Application.highestNum">
     <configuration name="CarApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter3.CarApplication" />
       <module name="javaExercise" />
@@ -116,18 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoreTest.calculateBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="highestNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter3.highestNum" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="samImmanuel.*" />
+          <option name="PATTERN" value="Chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="samImmanuel" />
-      <option name="MAIN_CLASS_NAME" value="samImmanuel.StoreTest" />
-      <option name="METHOD_NAME" value="calculateBalance" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.highestNum" />
         <item itemvalue="Application.checkIndex" />
         <item itemvalue="JUnit.StoreTest.newBalanceExceedsExpectedLimit" />
         <item itemvalue="Application.CarApplication" />
         <item itemvalue="JUnit.StoreTest.checkthenewBalance" />
-        <item itemvalue="JUnit.StoreTest.calculateBalance" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +193,9 @@
       <workItem from="1658442261261" duration="1284000" />
       <workItem from="1658526805110" duration="293000" />
       <workItem from="1658552792345" duration="3382000" />
-      <workItem from="1658673652441" duration="596000" />
+      <workItem from="1658673652441" duration="2166000" />
+      <workItem from="1658726023410" duration="4108000" />
+      <workItem from="1658764328038" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>
@@ -287,6 +280,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Chapter3/highestNum.java</url>
+          <line>9</line>
+          <properties class="Chapter3.highestNum" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
