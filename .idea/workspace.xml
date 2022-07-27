@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chapter7/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Chapter7/VariableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter3/highestNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter3/highestNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter8/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter8/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter8/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter8/TimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Chapter7" />
       <recent name="samImmanuel" />
       <recent name="tddClass" />
     </key>
@@ -83,13 +88,26 @@
       <recent name="Chapter8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.highestNum">
+  <component name="RunManager" selected="Application.Variable">
     <configuration name="CarApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter3.CarApplication" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Variable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter7.Variable" />
+      <module name="javaExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,22 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoreTest.checkthenewBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="samImmanuel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="samImmanuel" />
-      <option name="MAIN_CLASS_NAME" value="samImmanuel.StoreTest" />
-      <option name="METHOD_NAME" value="checkthenewBalance" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StoreTest.newBalanceExceedsExpectedLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Variable" />
         <item itemvalue="Application.highestNum" />
         <item itemvalue="Application.checkIndex" />
         <item itemvalue="JUnit.StoreTest.newBalanceExceedsExpectedLimit" />
         <item itemvalue="Application.CarApplication" />
-        <item itemvalue="JUnit.StoreTest.checkthenewBalance" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +198,8 @@
       <workItem from="1658673652441" duration="2166000" />
       <workItem from="1658726023410" duration="4108000" />
       <workItem from="1658764328038" duration="2234000" />
-      <workItem from="1658798714512" duration="3778000" />
+      <workItem from="1658798714512" duration="7912000" />
+      <workItem from="1658925977065" duration="1730000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>

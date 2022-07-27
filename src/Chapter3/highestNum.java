@@ -66,4 +66,8 @@ public class highestNum {
             System.out.println("The lowest num is " + " " + min);
             System.out.println("The largest num is " + " " + max);
         }
+
+        public static void anotherInput(){
+
+        }
 }
