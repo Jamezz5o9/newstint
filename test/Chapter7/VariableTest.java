@@ -13,6 +13,8 @@ public class VariableTest {
 
     @Test
     public void checkAverage(){
-        //Variable.calculateAverage();
+
+       // Variable.calculateAverage(150, "Awesome");
+
     }
 }
