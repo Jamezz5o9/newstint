@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Question22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Question23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/Question24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter8/Time2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter9/BasePlusCommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter9/BasePlusCommissionEmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter9/CommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter9/CommissionEmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter9/basePlusCommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Date/DateNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Date/DateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Date/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Chapter8/Date.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/playAround/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee/BasePlusCommissionEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee/CommissionEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee/HourlyEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee/PayRollTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee/SalariedEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/Payable/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter10/Payable/Payable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter7/Variable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter7/Variable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter8/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter8/TimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Chapter7/VariableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Chapter7/VariableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +91,7 @@
       <recent name="Chapter8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chapter9.BasePlusCommissionEmployeeTest">
+  <component name="RunManager" selected="Application.Chapter10.Employee.PayRollTest">
     <configuration name="Chapter9.BasePlusCommissionEmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter9.BasePlusCommissionEmployeeTest" />
       <module name="javaExercise" />
@@ -141,19 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Date.DateTest" />
-      <module name="javaExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Date.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InitArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter6.InitArray" />
       <module name="javaExercise" />
@@ -167,13 +144,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PayRollTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter10.Employee.PayRollTest" />
+      <module name="javaExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter10.Employee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chapter10.Employee.PayRollTest" />
         <item itemvalue="Application.Chapter9.BasePlusCommissionEmployeeTest" />
         <item itemvalue="Application.Chapter9.CommissionEmployeeTest" />
         <item itemvalue="Application.InitArray" />
         <item itemvalue="Application.Crap" />
-        <item itemvalue="Application.DateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +207,12 @@
       <workItem from="1659444027338" duration="3258000" />
       <workItem from="1659568326389" duration="4213000" />
       <workItem from="1659588773842" duration="5625000" />
+      <workItem from="1659677088317" duration="1800000" />
+      <workItem from="1659695616465" duration="698000" />
+      <workItem from="1659725329675" duration="2409000" />
+      <workItem from="1659865768857" duration="595000" />
+      <workItem from="1659945729750" duration="1237000" />
+      <workItem from="1659977910051" duration="15831000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>
