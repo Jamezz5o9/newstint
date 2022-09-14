@@ -35,7 +35,7 @@ public class PayRollTest {
 
                 curEmployee.setBaseSalary(1.10 * curEmployee.getBaseSalary());
 
-                System.out.printf("new base salary with 10%% increase is: $%,.2f%n", curEmployee.getBaseSalary());
+                System.out.printf("%s: $%,.2f%n", "new base salary with 10% increase is", curEmployee.getBaseSalary());
 
             }
             System.out.printf(

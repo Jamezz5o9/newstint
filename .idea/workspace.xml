@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee/BasePlusCommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee/CommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee/HourlyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee/PayRollTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/Employee/SalariedEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/Payable/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter10/Payable/Payable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter11/DivideBeZeroNoExceptionHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter14/RegexExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter14/StringConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter14/StringMiscellaneous.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter15/InputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RandomPractice/Chapter4/Question30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestingArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter10/Employee/CommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter10/Employee/CommissionEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter10/Employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter10/Employee/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter10/Employee/HourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter10/Employee/HourlyEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter10/Employee/PayRollTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter10/Employee/PayRollTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter10/Payable/Invoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter10/Payable/Payable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter10/Payable/PayableInterfaceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +96,17 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Chapter8" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chapter10.Payable" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Chapter10.Employee.PayRollTest">
-    <configuration name="Chapter9.BasePlusCommissionEmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter9.BasePlusCommissionEmployeeTest" />
+  <component name="RunManager" selected="Application.InputStream">
+    <configuration name="InputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter15.InputStream" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter9.*" />
+          <option name="PATTERN" value="Chapter15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chapter9.CommissionEmployeeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter9.CommissionEmployeeTest" />
+    <configuration name="RegexExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter14.RegexExample" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter9.Testing.*" />
+          <option name="PATTERN" value="Chapter14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Crap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter6.Crap" />
+    <configuration name="StringConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter14.StringConstructor" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter6.*" />
+          <option name="PATTERN" value="Chapter14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter6.InitArray" />
+    <configuration name="StringMiscellaneous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter14.StringMiscellaneous" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter6.*" />
+          <option name="PATTERN" value="Chapter14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,26 +153,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PayRollTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter10.Employee.PayRollTest" />
+    <configuration name="TestingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestingArray" />
       <module name="javaExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter10.Employee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Chapter10.Employee.PayRollTest" />
-        <item itemvalue="Application.Chapter9.BasePlusCommissionEmployeeTest" />
-        <item itemvalue="Application.Chapter9.CommissionEmployeeTest" />
-        <item itemvalue="Application.InitArray" />
-        <item itemvalue="Application.Crap" />
+        <item itemvalue="Application.InputStream" />
+        <item itemvalue="Application.RegexExample" />
+        <item itemvalue="Application.StringMiscellaneous" />
+        <item itemvalue="Application.TestingArray" />
+        <item itemvalue="Application.StringConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +215,20 @@
       <workItem from="1659725329675" duration="2409000" />
       <workItem from="1659865768857" duration="595000" />
       <workItem from="1659945729750" duration="1237000" />
-      <workItem from="1659977910051" duration="15831000" />
+      <workItem from="1659977910051" duration="21330000" />
+      <workItem from="1660062633295" duration="3556000" />
+      <workItem from="1660070903839" duration="1733000" />
+      <workItem from="1660088534145" duration="3127000" />
+      <workItem from="1660118385883" duration="599000" />
+      <workItem from="1660266240776" duration="6611000" />
+      <workItem from="1660425115511" duration="91000" />
+      <workItem from="1660750366727" duration="1731000" />
+      <workItem from="1661457917366" duration="38000" />
+      <workItem from="1662813209884" duration="25042000" />
+      <workItem from="1663006797024" duration="58000" />
+      <workItem from="1663067295091" duration="11616000" />
+      <workItem from="1663154346652" duration="634000" />
+      <workItem from="1663161706358" duration="2611000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>
@@ -283,6 +299,15 @@
           <url>file://$PROJECT_DIR$/src/Chapter6/InitArray.java</url>
           <line>7</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/TestingArray.java</url>
+          <line>1</line>
+          <properties class="TestingArray" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

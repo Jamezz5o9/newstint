@@ -29,6 +29,5 @@ public abstract class Employee {
         return String.format("%s %s%n%s: %s", getFirstName(), getLastName(), "Social security number", getSocialSecurityNumber());
     }
 
-
     public abstract double earnings();
 }

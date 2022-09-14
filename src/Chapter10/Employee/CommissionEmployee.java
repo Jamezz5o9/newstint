@@ -1,7 +1,6 @@
 package Chapter10.Employee;
 
 public class CommissionEmployee extends Employee{
-
     private double commissionRate;
     private double grossSales;
 
