@@ -19,4 +19,7 @@ public class InputStream {
        }
 
     }
+    public static void readToAnother(){
+
+    }
 }
