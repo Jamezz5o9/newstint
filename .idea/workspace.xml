@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter14/StringIndexMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter15/FileOutputStreamSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter15/JavaNioSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter15/Serialization/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter15/Serialization/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter15/fileWriterSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -237,6 +230,9 @@
       <workItem from="1663403400625" duration="598000" />
       <workItem from="1663414316516" duration="8499000" />
       <workItem from="1663504683691" duration="9441000" />
+      <workItem from="1663674628549" duration="592000" />
+      <workItem from="1663721206719" duration="1346000" />
+      <workItem from="1663756304462" duration="554000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>
