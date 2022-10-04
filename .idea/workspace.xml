@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chaper16/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chaper16/ListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chaper16/Sort1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chaper16/Sort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chaper16/Sort3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chaper16/TimeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chaper16/UsingToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter15/CreditEnquiry/CreditInquiry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter15/CreditEnquiry/MenuOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter15/FileAndDirectoryInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter15/ReadTextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter15/XMLSerialization/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clients.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter4/Gross.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Gross.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -91,13 +106,13 @@
       <recent name="Chapter10.Payable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Chapter15.Main">
-    <configuration name="Chapter15.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter15.Main" />
+  <component name="RunManager" selected="Application.Sort3">
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chaper16.ListTest" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter15.*" />
+          <option name="PATTERN" value="Chaper16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateTextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter15.CreateTextFile" />
+    <configuration name="Sort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chaper16.Sort1" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter15.*" />
+          <option name="PATTERN" value="Chaper16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutputStreamSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter15.FileOutputStreamSample" />
+    <configuration name="Sort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chaper16.Sort2" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter15.*" />
+          <option name="PATTERN" value="Chaper16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaNioSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter15.JavaNioSample" />
+    <configuration name="Sort3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chaper16.Sort3" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter15.*" />
+          <option name="PATTERN" value="Chaper16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter15.Serialization.Main" />
+    <configuration name="UsingToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chaper16.UsingToArray" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter15.Serialization.*" />
+          <option name="PATTERN" value="Chaper16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Chapter15.Main" />
-        <item itemvalue="Application.CreateTextFile" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.JavaNioSample" />
-        <item itemvalue="Application.FileOutputStreamSample" />
+        <item itemvalue="Application.Sort3" />
+        <item itemvalue="Application.Sort2" />
+        <item itemvalue="Application.Sort1" />
+        <item itemvalue="Application.UsingToArray" />
+        <item itemvalue="Application.ListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +249,11 @@
       <workItem from="1663721206719" duration="1346000" />
       <workItem from="1663756304462" duration="1813000" />
       <workItem from="1663923974218" duration="6073000" />
-      <workItem from="1664059728717" duration="472000" />
+      <workItem from="1664059728717" duration="2098000" />
+      <workItem from="1664272724001" duration="741000" />
+      <workItem from="1664420293206" duration="11736000" />
+      <workItem from="1664623352223" duration="12826000" />
+      <workItem from="1664788567285" duration="19734000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>
@@ -323,6 +342,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Chapter15/FileAndDirectoryInfo.java</url>
+          <line>10</line>
+          <properties class="Chapter15.FileAndDirectoryInfo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

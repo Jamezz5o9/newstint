@@ -3,7 +3,7 @@ package Chapter4;
 import java.security.SecureRandom;
 import java.util.Scanner;
 
-public class Gross {
+public class  Gross {
     public static void main(String[] args) {
         //goodsProfits();
         secureRandom2();
