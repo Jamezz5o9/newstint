@@ -1,4 +1,4 @@
-package Chaper16;
+package Chapter16;
 
 import java.util.*;
 

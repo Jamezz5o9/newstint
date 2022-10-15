@@ -1,4 +1,4 @@
-package Chaper16;
+package Chapter16;
 
 import Chapter8.Time2;
 
@@ -13,6 +13,10 @@ public class Sort3 {
         list.add(new Time2(19, 14, 39));
 
         list.sort(new TimeComparator());
+
+        Collections.reverse(list);
+        System.out.println(Collections.max(list, new TimeComparator()));
+        System.out.println(Collections.min(list, new TimeComparator()));
 
         System.out.printf("Sorted list elements:%n%s%n", list);
     }

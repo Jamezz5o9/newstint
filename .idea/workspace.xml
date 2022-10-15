@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chaper16/CollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chaper16/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chaper16/Sort1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chaper16/Sort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chaper16/Sort3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chaper16/TimeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chaper16/UsingToArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter15/CreditEnquiry/CreditInquiry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter15/CreditEnquiry/MenuOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter15/FileAndDirectoryInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter15/ReadTextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter15/XMLSerialization/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter16/Algorithms1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter16/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter16/CardGame/Cards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter16/CardGame/DeckOfCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter4/creditLimit/StoreCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Chapter4/creditLimit/CreditLimitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clients.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter4/Gross.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter4/Gross.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chaper16/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/CollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chaper16/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chaper16/Sort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/Sort1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chaper16/Sort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/Sort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chaper16/Sort3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/Sort3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chaper16/TimeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/TimeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chaper16/UsingToArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/UsingToArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,79 +105,93 @@
       <recent name="Chapter10.Payable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sort3">
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chaper16.ListTest" />
+  <component name="RunManager" selected="JUnit.CreditLimitTest.main">
+    <configuration name="CreditLimitTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chaper16.*" />
+          <option name="PATTERN" value="Chapter4.creditLimit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Chapter4.creditLimit" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.creditLimit.CreditLimitTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chaper16.Sort1" />
+    <configuration name="CreditLimitTest.calculateForNegativeBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chaper16.*" />
+          <option name="PATTERN" value="Chapter4.creditLimit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Chapter4.creditLimit" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.creditLimit.CreditLimitTest" />
+      <option name="METHOD_NAME" value="calculateForNegativeBalance" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chaper16.Sort2" />
+    <configuration name="CreditLimitTest.checkCreditLimitExceededWithHighItemCharged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chaper16.*" />
+          <option name="PATTERN" value="Chapter4.creditLimit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Chapter4.creditLimit" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.creditLimit.CreditLimitTest" />
+      <option name="METHOD_NAME" value="checkCreditLimitExceededWithHighItemCharged" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chaper16.Sort3" />
+    <configuration name="CreditLimitTest.checkIfCreditLimitHasBeenExceededByStoreCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chaper16.*" />
+          <option name="PATTERN" value="Chapter4.creditLimit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Chapter4.creditLimit" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.creditLimit.CreditLimitTest" />
+      <option name="METHOD_NAME" value="checkIfCreditLimitHasBeenExceededByStoreCustomer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chaper16.UsingToArray" />
+    <configuration name="CreditLimitTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chaper16.*" />
+          <option name="PATTERN" value="Chapter4.creditLimit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Chapter4.creditLimit" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.creditLimit.CreditLimitTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sort3" />
-        <item itemvalue="Application.Sort2" />
-        <item itemvalue="Application.Sort1" />
-        <item itemvalue="Application.UsingToArray" />
-        <item itemvalue="Application.ListTest" />
+        <item itemvalue="JUnit.CreditLimitTest.main" />
+        <item itemvalue="JUnit.CreditLimitTest (1)" />
+        <item itemvalue="JUnit.CreditLimitTest.calculateForNegativeBalance" />
+        <item itemvalue="JUnit.CreditLimitTest.checkCreditLimitExceededWithHighItemCharged" />
+        <item itemvalue="JUnit.CreditLimitTest.checkIfCreditLimitHasBeenExceededByStoreCustomer" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +266,15 @@
       <workItem from="1664272724001" duration="741000" />
       <workItem from="1664420293206" duration="11736000" />
       <workItem from="1664623352223" duration="12826000" />
-      <workItem from="1664788567285" duration="19734000" />
+      <workItem from="1664788567285" duration="20570000" />
+      <workItem from="1664904395495" duration="13886000" />
+      <workItem from="1665412615347" duration="2498000" />
+      <workItem from="1665478946312" duration="1276000" />
+      <workItem from="1665535307912" duration="643000" />
+      <workItem from="1665603290999" duration="7680000" />
+      <workItem from="1665698643824" duration="2189000" />
+      <workItem from="1665749010594" duration="598000" />
+      <workItem from="1665803749711" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>
@@ -351,6 +372,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Chapter7/GradeBook.java</url>
+          <line>28</line>
+          <properties class="Chapter7.GradeBook" method="getMinimum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
