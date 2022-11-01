@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter16/Algorithms1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter16/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter16/CardGame/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter16/CardGame/DeckOfCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter4/creditLimit/StoreCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Chapter4/creditLimit/CreditLimitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter16/SetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter16/SortedSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter8_9_10/BaseCommissionEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter8_9_10/CommissionEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CommisionBaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chaper16/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/CollectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chaper16/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chaper16/Sort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/Sort1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chaper16/Sort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/Sort2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chaper16/Sort3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/Sort3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chaper16/TimeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/TimeComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chaper16/UsingToArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter16/UsingToArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +97,46 @@
       <recent name="Chapter10.Payable" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CreditLimitTest.main">
+  <component name="RunManager" selected="Application.SortedSetTest">
+    <configuration name="Chapter16.SetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter16.SetTest" />
+      <module name="javaExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter15.Serialization.Main" />
+      <module name="javaExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter15.Serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortedSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter16.SortedSetTest" />
+      <module name="javaExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreditLimitTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
       <extension name="coverage">
@@ -117,54 +148,6 @@
       <option name="PACKAGE_NAME" value="Chapter4.creditLimit" />
       <option name="MAIN_CLASS_NAME" value="Chapter4.creditLimit.CreditLimitTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreditLimitTest.calculateForNegativeBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter4.creditLimit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Chapter4.creditLimit" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.creditLimit.CreditLimitTest" />
-      <option name="METHOD_NAME" value="calculateForNegativeBalance" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreditLimitTest.checkCreditLimitExceededWithHighItemCharged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter4.creditLimit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Chapter4.creditLimit" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.creditLimit.CreditLimitTest" />
-      <option name="METHOD_NAME" value="checkCreditLimitExceededWithHighItemCharged" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreditLimitTest.checkIfCreditLimitHasBeenExceededByStoreCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter4.creditLimit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Chapter4.creditLimit" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.creditLimit.CreditLimitTest" />
-      <option name="METHOD_NAME" value="checkIfCreditLimitHasBeenExceededByStoreCustomer" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedSetTest" />
+        <item itemvalue="Application.Chapter16.SetTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CreditLimitTest.main" />
         <item itemvalue="JUnit.CreditLimitTest (1)" />
-        <item itemvalue="JUnit.CreditLimitTest.calculateForNegativeBalance" />
-        <item itemvalue="JUnit.CreditLimitTest.checkCreditLimitExceededWithHighItemCharged" />
-        <item itemvalue="JUnit.CreditLimitTest.checkIfCreditLimitHasBeenExceededByStoreCustomer" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +257,19 @@
       <workItem from="1665603290999" duration="7680000" />
       <workItem from="1665698643824" duration="2189000" />
       <workItem from="1665749010594" duration="598000" />
-      <workItem from="1665803749711" duration="282000" />
+      <workItem from="1665803749711" duration="1220000" />
+      <workItem from="1665926067987" duration="404000" />
+      <workItem from="1666074721812" duration="606000" />
+      <workItem from="1666157931837" duration="1022000" />
+      <workItem from="1666170277740" duration="22000" />
+      <workItem from="1666172095260" duration="814000" />
+      <workItem from="1666453609905" duration="2488000" />
+      <workItem from="1666524682340" duration="895000" />
+      <workItem from="1666573212532" duration="1023000" />
+      <workItem from="1667066961849" duration="1964000" />
+      <workItem from="1667157220730" duration="819000" />
+      <workItem from="1667298667689" duration="721000" />
+      <workItem from="1667323917865" duration="3422000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>
