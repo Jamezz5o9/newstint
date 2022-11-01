@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter16/SetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter16/SortedSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter8_9_10/BaseCommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter8_9_10/CommissionEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CommisionBaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter8_9_10/CommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter8_9_10/CommissionEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/CommisionBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CommisionBaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,26 +94,13 @@
       <recent name="Chapter10.Payable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortedSetTest">
+  <component name="RunManager" selected="JUnit.CommisionBaseTest">
     <configuration name="Chapter16.SetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter16.SetTest" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Chapter16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter15.Serialization.Main" />
-      <module name="javaExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter15.Serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,32 +121,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreditLimitTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommisionBaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter4.creditLimit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Chapter4.creditLimit" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.creditLimit.CreditLimitTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommisionBaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreditLimitTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommisionBaseTest.calculateBaseCommissionEmployeeEarnings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Chapter4.creditLimit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Chapter4.creditLimit" />
-      <option name="MAIN_CLASS_NAME" value="Chapter4.creditLimit.CreditLimitTest" />
-      <option name="METHOD_NAME" value="main" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommisionBaseTest" />
+      <option name="METHOD_NAME" value="calculateBaseCommissionEmployeeEarnings" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommisionBaseTest.calculateCommissionEmployeeEarnings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javaExercise" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommisionBaseTest" />
+      <option name="METHOD_NAME" value="calculateCommissionEmployeeEarnings" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommisionBaseTest" />
+        <item itemvalue="JUnit.CommisionBaseTest.calculateBaseCommissionEmployeeEarnings" />
+        <item itemvalue="JUnit.CommisionBaseTest.calculateCommissionEmployeeEarnings" />
         <item itemvalue="Application.SortedSetTest" />
         <item itemvalue="Application.Chapter16.SetTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CreditLimitTest.main" />
-        <item itemvalue="JUnit.CreditLimitTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +251,7 @@
       <workItem from="1667066961849" duration="1964000" />
       <workItem from="1667157220730" duration="819000" />
       <workItem from="1667298667689" duration="721000" />
-      <workItem from="1667323917865" duration="3422000" />
+      <workItem from="1667323917865" duration="4898000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>

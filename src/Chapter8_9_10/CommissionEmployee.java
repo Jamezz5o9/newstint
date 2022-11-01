@@ -77,8 +77,11 @@ public class CommissionEmployee {
         this.baseCommissionEmployee = baseCommissionEmployee;
     }
 
-    public double earnings(){
+    public double commissionEmployeeEarnings(){
         return getCommissionRate()  * getGrossSales();
+    }
+    public double baseComEmployeeEarnings(){
+        return  commissionEmployeeEarnings() + baseCommissionEmployee.earnings();
     }
 
     @Override
