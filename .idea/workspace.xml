@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Chapter17/StreamReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter8_9_10/Question9_6/Books.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter8_9_10/CommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter8_9_10/CommissionEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CommisionBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CommisionBaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,21 +63,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/codefactory/IdeaProjects/javaExercise/src&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "/home/codefactory/IdeaProjects/javaExercise/src",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -94,9 +97,9 @@
       <recent name="Chapter10.Payable" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CommisionBaseTest">
-    <configuration name="Chapter16.SetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter16.SetTest" />
+  <component name="RunManager" selected="Application.StreamReduce">
+    <configuration name="SortedSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter16.SortedSetTest" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
@@ -108,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter16.SortedSetTest" />
+    <configuration name="StreamReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter17.StreamReduce" />
       <module name="javaExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Chapter16.*" />
+          <option name="PATTERN" value="Chapter17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamReduce" />
         <item itemvalue="JUnit.CommisionBaseTest" />
         <item itemvalue="JUnit.CommisionBaseTest.calculateBaseCommissionEmployeeEarnings" />
         <item itemvalue="JUnit.CommisionBaseTest.calculateCommissionEmployeeEarnings" />
         <item itemvalue="Application.SortedSetTest" />
-        <item itemvalue="Application.Chapter16.SetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +254,8 @@
       <workItem from="1667066961849" duration="1964000" />
       <workItem from="1667157220730" duration="819000" />
       <workItem from="1667298667689" duration="721000" />
-      <workItem from="1667323917865" duration="4898000" />
+      <workItem from="1667323917865" duration="7171000" />
+      <workItem from="1667352650284" duration="4309000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>
