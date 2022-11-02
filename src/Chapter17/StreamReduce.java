@@ -6,9 +6,12 @@ public class StreamReduce {
     public static void main(String[] args) {
         firstStream();
         secondStream();
+        thirdStream();
     }
 
     private static void secondStream() {
+       int result =  IntStream.rangeClosed(1, 10).map((int x) -> {return x * 2;}).sum();
+        System.out.println(result);
     }
 
     private static void firstStream() {

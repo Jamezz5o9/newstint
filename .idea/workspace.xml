@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54bea652-c01a-450c-ab54-bea2e03eb9f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Chapter17/StreamReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter8_9_10/Question9_6/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter17/StreamReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter17/StreamReduce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +253,7 @@
       <workItem from="1667157220730" duration="819000" />
       <workItem from="1667298667689" duration="721000" />
       <workItem from="1667323917865" duration="7171000" />
-      <workItem from="1667352650284" duration="4309000" />
+      <workItem from="1667352650284" duration="5136000" />
     </task>
     <task id="LOCAL-00001" summary="new commit">
       <created>1657208503875</created>
